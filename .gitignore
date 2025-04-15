@@ -1,0 +1,46 @@
+# Entorno virtual
+venv/
+ENV/
+env/
+.venv/
+
+# Archivos de configuración de VS Code
+.vscode/
+
+# Archivos de Python que se generan automáticamente
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de logs y datos temporales
+*.log
+*.tmp
+*.bak
+
+# Salidas de Jupyter o notebooks
+.ipynb_checkpoints/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de salida
+*.csv
+*.xlsx
+
+# Archivos de dependencia
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de test o cache de coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+pytest_cache/
+
+# Entornos y control de paquetes
+Pipfile.lock
+poetry.lock
